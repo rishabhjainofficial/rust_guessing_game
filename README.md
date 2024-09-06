@@ -43,8 +43,13 @@ rand = "0.8"
 
 When you run the program, you will see something like this:
 
-In this example:
-- The secret number was **84**.
-- The user first guessed **5**, which was too small.
-- After guessing **84**, the user won the game.
+### Explanation:
+
+1. The program starts by asking the user to guess a number.
+2. The user guesses **5**, but it's too small.
+3. The user then guesses **50**, which is too big.
+4. Finally, the user guesses **30**, which is the correct number, and the game ends with a win.
+
+You will need to repeat this process until you guess the correct number.
+
 
